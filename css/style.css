@@ -218,6 +218,7 @@ nav ul li a:hover {
     margin: 0;
     padding-top: 107px;
     padding-bottom: 45px;
+    padding-right: 134px;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -243,8 +244,9 @@ nav ul li a:hover {
     padding-left: 134px;
 }
 
-.image {
+.project-image {
     float: right;
+    padding-right: 134px;
 }
 
 .completed-projects {
