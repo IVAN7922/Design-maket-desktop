@@ -221,7 +221,8 @@ nav ul li a:hover {
     padding-right: 134px;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
+
 }
 
 .progect-navigation__item a {
