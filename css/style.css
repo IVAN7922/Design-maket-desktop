@@ -639,7 +639,6 @@ nav ul li a:hover {
     background-image: url("/img/location.jpg");
     background-size: cover;
     position: relative;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
