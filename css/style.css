@@ -236,11 +236,6 @@ nav ul li a:hover {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.left_item a {
-    color: #E3B873;
-    text-decoration: underline;
-}
-
 .area-subtitle__item {
     padding-left: 134px;
 }
