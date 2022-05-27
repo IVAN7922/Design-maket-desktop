@@ -124,7 +124,6 @@ nav ul li a:hover {
 }
 
 .header-navigation__tel a {
-    font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -182,7 +181,6 @@ nav ul li a:hover {
 
 .subtitle {
     width: 480px;
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
@@ -438,7 +436,6 @@ nav ul li a:hover {
     color: #131313;
     text-align: center;
     margin-top: 147px;
-
 }
 
 .types-content-block img {
@@ -708,6 +705,7 @@ nav ul li a:hover {
 }
 
 /* footer */
+
 .footer-content {
     padding: 0 92px;
     display: flex;
