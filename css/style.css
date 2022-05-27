@@ -39,6 +39,14 @@ body {
     opacity: 1;
 }
 
+input[type=text] {
+    padding: 10px 10px;
+    margin: 0 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
 h2 {
     font-family: 'Yeseva One';
     font-weight: 400;
@@ -71,11 +79,11 @@ button {
     text-transform: uppercase;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border-radius: 2px;
+    cursor: pointer;
 }
 
-button a {
-    text-decoration: none;
-    color: #FFFFFF;
+#home a {
+    color: #E3B873;
 }
 
 /* header */
@@ -140,7 +148,6 @@ button a {
     background-size: cover;
     height: 707px;
     padding: 194px;
-
 }
 
 .colortext {
@@ -212,6 +219,7 @@ button a {
 .navigation-progect {
     margin: 0;
     padding-top: 107px;
+    padding-bottom: 45px;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -230,6 +238,7 @@ button a {
 
 .left_item a {
     color: #E3B873;
+    text-decoration: underline;
 }
 
 .area-subtitle__item {
@@ -278,10 +287,6 @@ button a {
 
 /* section "control" */
 
-.control {
-    margin-top: -400px;
-}
-
 .control-button {
     width: 200px;
 }
@@ -290,6 +295,24 @@ button a {
     align-items: center;
     margin-top: -300px;
     padding-bottom: 130px;
+    position: relative;
+    z-index: 2;
+}
+
+.control-overlay {
+    content: '';
+    position: absolute;
+    top: -220px;
+    right: 310px;
+    left: 310px;
+    bottom: 488px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.control-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .control-container {
@@ -303,28 +326,26 @@ button a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 39px;
 }
 
-.online-control {
-    padding-top: 60px;
-    font-family: 'Yeseva One';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+.icon-control-str {
+    padding-left: 134px;
+    margin-top: 65px;
+}
+
+.icon-control-cam {
+    margin-top: 70px;
     text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+} 
+
+.img-control {
+    margin-top: -220px;
 }
 
-.icon-control {
-    display: flex;
-    align-items: center;
-    padding-bottom: 25px;
-}
-
-.icon-controls {
-    padding-top: 64px;
-    padding-bottom: 35px;
+.icon-control-line {
+    padding-top: 62px;
+    padding-bottom: 34px;
 }
 
 .subtitle-control {
@@ -335,6 +356,7 @@ button a {
     line-height: 37px;
     text-align: center;
     color: #363636;
+    margin-bottom: 93px;
 }
 
 /* section "types" */
@@ -379,7 +401,6 @@ button a {
 }
 
 .types-form-contacts input {
-    text-align: center;
     background-color: #131313;
     font-weight: 400;
     font-size: 14px;
@@ -416,17 +437,12 @@ button a {
 .online-types {
     color: #131313;
     text-align: center;
+    margin-top: 147px;
+
 }
 
 .types-content-block img {
     padding: 30px 15px;
-}
-
-input[type=text] {
-    padding: 10px 10px;
-    margin: 0 15px;
-    border: none;
-    border-bottom: 1px solid gray;
 }
 
 .types-list-block {
@@ -455,12 +471,21 @@ input[type=text] {
     color: #959595;
 }
 
+.button-types {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .pig-item {
     margin-top: 38px;
     margin-bottom: 54px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    padding-left: 480px;
 }
 
 .pig-item p {
@@ -550,12 +575,12 @@ input[type=text] {
 /* section "clients" */
 
 .clients {
-    height: 990px;
+    height: 968px;
 }
 
 .our-clients {
     color: #131313;
-    padding-top: 50px;
+    padding-top: 69px;
     text-align: center;
 }
 
@@ -568,6 +593,9 @@ input[type=text] {
 }
 
 .clients-container p {
+    margin: 0 auto;
+    width: 350px;
+    padding-bottom: 39px;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
@@ -647,7 +675,7 @@ input[type=text] {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .location-container {
@@ -660,7 +688,6 @@ input[type=text] {
 }
 
 .location-form input {
-    text-align: center;
     background-color: #131313;
     font-weight: 400;
     font-size: 14px;
