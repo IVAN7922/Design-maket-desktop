@@ -82,8 +82,8 @@ button {
     cursor: pointer;
 }
 
-#home a {
-    color: #E3B873;
+nav ul li a:hover {
+    color: #E3B873; 
 }
 
 /* header */
