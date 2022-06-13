@@ -295,22 +295,6 @@ nav ul li a:hover {
     z-index: 2;
 }
 
-.control-overlay {
-    content: '';
-    position: absolute;
-    top: -220px;
-    right: 310px;
-    left: 310px;
-    bottom: 488px;
-    background-color: rgba(0, 0, 0, .7);
-}
-
-.control-container {
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
-
 .control-container {
     display: flex;
     align-items: center;
